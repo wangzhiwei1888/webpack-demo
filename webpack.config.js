@@ -14,6 +14,14 @@ module.exports = {
 	devServer:{
 		contentBase: './dist'
 	},
+	module:{
+		rules: [{
+			test: /\.css$/,
+			use: [
+				'style-loader', 'css-loader'
+			]
+		}]
+	},
 	output:{
 
 		filename: '[name].bundle.js',
