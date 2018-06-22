@@ -10,7 +10,8 @@ module.exports = {
 		app:'./src/index.js'
 		
 	},
-	devtool: 'inline-source-map',
+	// devtool: 'inline-source-map',
+	devtool: 'cheap-module-source-map',
 	devServer:{
 		contentBase: './dist'
 	},
