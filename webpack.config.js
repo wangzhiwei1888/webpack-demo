@@ -10,6 +10,7 @@ module.exports = {
 		app:'./src/index.js'
 		
 	},
+	devtool: 'inline-source-map',
 	output:{
 
 		filename: '[name].bundle.js',
