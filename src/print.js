@@ -1,3 +1,4 @@
 export default function printMe() {
-  cosnsole.log('I get called from print.js!');
+	alert(1)
+  // cosnsole.log('I get called from print.js!');
 }
